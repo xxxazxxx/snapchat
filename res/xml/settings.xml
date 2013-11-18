@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <PreferenceCategory android:title="Account Settings" >
+        <EditTextPreference
+                android:title="Username"
+                android:summary="mduggan92"
+                android:key="prefusername"
+                android:defaultValue="mduggan92"
+                />
+        <EditTextPreference
+                android:title="Email"
+                android:summary="mduggan92@gmail.com"
+                android:key="prefemail"
+                android:defaultValue="mduggan92@gmail.com"
+                />
+        <EditTextPreference
+                android:title="Phone Number"
+                android:summary="716-465-5783"
+                android:key="prefphonenumber"
+                android:defaultValue="716-465-5783"
+                />
+    </PreferenceCategory>
+ 
+</PreferenceScreen>

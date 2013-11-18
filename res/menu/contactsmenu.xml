@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_person"
+        android:icon="@drawable/addcontact"
+        android:showAsAction="always"
+        android:title="Add Contact">
+    </item>
+    <item
+        android:id="@+id/action_add_group"
+        android:icon="@drawable/addgroup"
+        android:showAsAction="always"
+        android:title="Add Group">
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
+        android:showAsAction="always"
+        android:title="Settings">
+    </item>
+
+</menu>
